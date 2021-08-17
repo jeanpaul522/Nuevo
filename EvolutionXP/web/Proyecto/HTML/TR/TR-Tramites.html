@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <title>Evolution XP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <link rel="shortcut icon" href="../../Assets/Imagen/svg/038-diamond.svg"> 
+
+        <link href="../../CSS/General.css" rel="stylesheet" type="text/css"/>
+        <link href="../../CSS/TR/TR-Tramites.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <!-- Contenido global-->
+        <div id="Content_General">
+            <div id="Content_Body">
+                <div id="Content_Tramites" class="col-3 col-s-3">
+                    <div id="Title_Tramites" class="content-title-body">
+                        <div class="col-12 col-s-12">
+                            <div class="content-title-text">
+                                <div>
+                                    <span>Tramites</span>
+                                    <div class="content-separator"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-s-12">
+                            <input id="Text_Buscar_Tramite" type="text" class="input-text" maxlength="100" spellcheck="false" placeholder="Buscar tramite" autocomplete="off"/>
+                        </div>
+                    </div>
+                    <div id="Body_Tramites" class="content-body">
+                        <div id="Content_Tramites_List" class="hide-element"></div>
+                        <div id="Empty_Tramites" class="content-body-information">
+                            <span>No hay tramites registrados, revisa la información digitada nuevamente</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="Content_Detalle" class="col-9 col-s-9">
+                    <div id="Title_Detalle" class="content-title-body">
+                        <div class="col-9 col-s-8">
+                            <div class="content-title-text">
+                                <div>
+                                    <span>Información del usuario</span>
+                                    <div class="content-separator"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-s-4">
+                            <div class="content-option-form">
+                                <button id="Button_Consultar" class="button-general button-confirmar">
+                                    <label>Consultar estado</label>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Body_Detalle" class="content-body">
+                        <div class="margin-medium margin-large margin-extra-large margin-grande">
+                            <div class="col-12 col-s-12">
+                                <div class="content-option-form">
+                                    <input id="Text_Correo" type="text" class="input-text" maxlength="50" spellcheck="false" placeholder="Correo electronico" autocomplete="off"/>
+                                </div>
+                            </div>
+                            <div class="col-6 col-s-12">
+                                <div class="content-option-form">
+                                    <input id="Text_Telefono" type="text" class="input-text" maxlength="20" spellcheck="false" placeholder="Telefono" autocomplete="off"/>
+                                </div>
+                            </div>
+                            <div class="col-3 col-s-6">
+                                <div class="content-option-form">
+                                    <input id="Text_PIN" type="text" class="input-text" maxlength="4" spellcheck="false" placeholder="PIN" autocomplete="off"/>
+                                </div>
+                            </div>
+                            <div class="col-3 col-s-6">
+                                <div class="content-option-form">
+                                    <button id="Button_Olvido" class="button-general">
+                                        <label>¿Olvidates el PIN?</label>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Title_Procesos" class="content-title-body">
+                        <div class="col-9 col-s-6">
+                            <div class="content-title-text">
+                                <div>
+                                    <span>Lista de procesos</span>
+                                    <div class="content-separator"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-s-6">
+                            <div class="content-option-form">
+                                <button id="Button_Cerrar_Procesos" class="button-general">
+                                    <label>Cerrar</label>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Body_Procesos" class="content-body">
+                        <div id="Content_Multimedia" class="hide-element"></div>
+                        <div id="Content_Procesos" class="hide-element"></div>
+                        <div id="Empty_Procesos" class="content-body-information margin-medium margin-large margin-extra-large margin-grande">
+                            <span>No hay información de radicado de procesos. Verifique los datos ingresados por el usuario, en caso contrario comuniquese a nuestras lineas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vista de mensaje -->
+        <div class="content-message">
+            <div id="Content_Meesage">
+                <div class="card-message">
+                    <div class="card-img-message">
+                        <div>
+                            <img src="../../Assets/Imagen/svg/038-diamond.svg">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <span id="Text_Message_Title">¡Oopps!, ocurrió un problema</span>
+                        <div class="content-separator-card"></div>
+                        <div class="content-form">
+                            <div class="col-12">
+                                <p id="Text_Message_Body" >Si ocurre algun problema, comunicate con el administrador del sistema, el te resolvera cuqluier inquitud</p>
+                            </div>
+                            <div class="col-12">
+                                <button id="Button_Message_Aceptar" class="button-general">
+                                    <label>Aceptar</label>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Scrips de javascript-->
+        <script src="../../JS/General/jquery.min.js" type="text/javascript"></script>
+        <script src="../../JS/General/General.js" type="text/javascript"></script>
+        <script src="../../JS/General/Elements.js" type="text/javascript"></script>
+        <script src="../../JS/TR/TR-Tramites.js" type="text/javascript"></script>
+
+    </body>
+</html>

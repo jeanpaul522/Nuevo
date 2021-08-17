@@ -1,0 +1,119 @@
+[
+    {
+        "correo": "jeanpaul522@outlook.es",
+        "telefono": "3172451345",
+        "PIN": "4563",
+        "tramites": [
+            {
+                "key": 1,
+                "fecha": "2021/05/15",
+                "descripcion": "PQRS - Queja sobre el area de cartera",
+                "documentos": [
+                    {
+                        "nombre": "Diploma",
+                        "ruta": "../../Assets/Documents/Certificado.jpg"
+                    },
+                    {
+                        "nombre": "Hoja de vida",
+                        "ruta": "../../Assets/Documents/Hoja.pdf"
+                    },
+                    {
+                        "nombre": "Certiicado de nacimiento",
+                        "ruta": "../../Assets/Documents/Hoja.pdf"
+                    }
+                ],
+                "procesos": [
+                    {
+                        "numero": "15789",
+                        "fecha": "01 ago 2019",
+                        "proceso": [
+                            {
+                                "fecha": "Agosto 18",
+                                "descripcion": "Iniciamos el proceso de reparacion para el usuario"
+                            },
+                            {
+                                "fecha": "Agosto 28",
+                                "descripcion": "He validado que la informacion a sido veridica en todos los casos"
+                            },
+                            {
+                                "fecha": "Septiembre 23",
+                                "descripcion": "Se le notifica al usuario sobre el proceso moratorio de cada uno de los dias"
+                            },
+                            {
+                                "fecha": "Noviembre 19",
+                                "descripcion": "Ya me encuentro a paz y salvo y con todos los documentos presentados"
+                            },
+                            {
+                                "fecha": "Noviembre 30",
+                                "descripcion": "Se verifico toda la informacion del usario y se encyuentra en orden"
+                            }
+                        ]
+                    },
+                    {
+                        "numero": "189548",
+                        "fecha": "01 Dic 2019",
+                        "proceso": [
+                            {
+                                "fecha": "Diciembre 18",
+                                "descripcion": "Iniciamos el proceso de reparacion para el usuario"
+                            },
+                            {
+                                "fecha": "Enero 28",
+                                "descripcion": "He validado que la informacion a sido veridica en todos los casos"
+                            },
+                            {
+                                "fecha": "Febrero 05",
+                                "descripcion": "Se le notifica al usuario sobre el proceso moratorio de cada uno de los dias"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": 2,
+                "fecha": "2021/05/15",
+                "descripcion": "Factura de proveedores - Radicado factura  AL 123645",
+                "procesos": [
+                    {
+                        "numero": "189548",
+                        "fecha": "01 Dic 2019",
+                        "proceso": [
+                            {
+                                "fecha": "Diciembre 18",
+                                "descripcion": "Iniciamos el proceso de reparacion para el usuario"
+                            },
+                            {
+                                "fecha": "Enero 28",
+                                "descripcion": "He validado que la informacion a sido veridica en todos los casos"
+                            },
+                            {
+                                "fecha": "Febrero 05",
+                                "descripcion": "Se le notifica al usuario sobre el proceso moratorio de cada uno de los dias"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": 3,
+                "fecha": "2021/05/15",
+                "descripcion": "Solictud de generacion de informe de cartera"
+            },
+            {
+                "key": 4,
+                "fecha": "2021/05/15",
+                "descripcion": "Solictud de informacion de las notas en el proceso"
+            }
+        ]
+    },
+    {
+        "correo": "calosmario@outlook.es",
+        "telefono": "3122451345",
+        "PIN": "1816"
+    },
+    {
+        "correo": "cesar15@outlook.es",
+        "telefono": "3189654523",
+        "PIN": "1246"
+    }
+]

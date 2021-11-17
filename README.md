@@ -47,4 +47,4 @@ La carpeta principal del proyecto es src, donde todo el desarrollo del proyecto
 
 **Nota:** En la carpeta assets se encuentran las fuentes de la letra y las imagenes e iconos del proyecto, pero en este caso no los modifique solo lasm fuentes se pusieron unos ttf para el tipo de letra
 
-![](https://github.com/jeanpaul522/Nuevo/blob/main/primero.png) ![](https://github.com/jeanpaul522/Nuevo/blob/main/segundo.png)
+![](https://github.com/jeanpaul522/Nuevo/blob/main/tercero.png)
